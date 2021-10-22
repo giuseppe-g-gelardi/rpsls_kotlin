@@ -1,10 +1,12 @@
 
 
-fun main(args: Array<String>) {
-    println("i am sucks at this")
+fun main() {
 
     val newGame = Game("name")
     newGame.runGame()
+
+//    val startGame = Game("name")
+//    startGame.initPlayer()
 
 }
 

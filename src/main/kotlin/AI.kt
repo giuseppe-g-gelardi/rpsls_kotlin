@@ -7,7 +7,6 @@ open class AI(
 
     fun gestures() {
         val rand: Int = (0..4).random()
-        println(rand)
         this.choice = this.moves[rand]
         println("player picked $choice")
     }
